@@ -1,8 +1,9 @@
 #wrapper {
     width: 500px;
     margin: 10px auto 10px auto;  
-    height: 1000px;
-    background:black;  
+    /* top, right, bottom, left */
+    height: 500px;
+    background:#FF7519;   
 }
 
 h1 {font-family: Times, Serif;}
@@ -10,7 +11,7 @@ p {font-family: Verdana, Sans-Serif;}
 a {font-family: Verdana, Sans-Serif;}
 h1{ color:#FF7519;}
 h2{color:black;}
-p{ color:#A00000;}
+p{ color:#A00000}
 a{ color:black ;}
 
 header {
@@ -30,22 +31,21 @@ header {
     background:#CC5200;
     height: 80px;
 }
-
 .article-footer{
-    height:73.95px;
+    height:100%;
 }
         
 
 nav, aside {
-    background:#A00000;
+    background:#A00000   ;
     width:150px;
-    height:400px;
+    height:500px;
     float: left;
 }
 
 article {
-
-    background:#FF7519;
+    /*border: 1px solid #000000;*/
+    background: 	#FF7519;
     width:350px;
     float: left;
     text-align:center;
