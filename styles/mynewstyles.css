@@ -3,8 +3,8 @@
     margin: 10px auto 10px auto;  
     height: 100%;
     background-image:url('https://googledrive.com/host/0ByiDuodl4dz-dF83QlBaMWlnR0U/GLASS.jpg'); 
-    background-repeat:repeat-y;
-    background-repeat:repeat-x;
+    background-repeat:repeat;
+
 
 }
 
@@ -22,7 +22,7 @@ p, p1 {font-family: Verdana, Sans-Serif;}
 a {font-family: Verdana, Sans-Serif;}
 h1{ color:#c9e1c1;}
 h2{color:#c9e1c1;}
-p{ color:#c9e1c1;}
+p{ color:#1D2F3E;}
 p1{ color:#1D2F3E;}
 a{ color:#c9e1c1;}
 
