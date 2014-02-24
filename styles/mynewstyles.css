@@ -1,58 +1,92 @@
 #wrapper {
-    width: 500px;
+    width: 100%;
     margin: 10px auto 10px auto;  
-    height: 1000px;
-    background:black;  
+    height: 100%;
+    background-image:url('https://googledrive.com/host/0ByiDuodl4dz-dF83QlBaMWlnR0U/GLASS.jpg'); 
+
+}
+
+#logo
+{
+    margin: 0 0 0 0;
+    background:#0f9fb4;
+    width: 150px;
+    height: 150px;
+    float: left;    
 }
 
 h1 {font-family: Times, Serif;}
-p {font-family: Verdana, Sans-Serif;}
+p, p1 {font-family: Verdana, Sans-Serif;}
 a {font-family: Verdana, Sans-Serif;}
-h1{ color:#FF7519;}
-h2{color:black;}
-p{ color:#A00000;}
-a{ color:black ;}
+h1{ color:#c9e1c1;}
+h2{color:#c9e1c1;}
+p{ color:#c9e1c1;}
+p1{ color:#1D2F3E;}
+a{ color:#c9e1c1;}
 
 header {
-    width: 100%;
-    height: 50px;
-    background:#A00000 ;
+  
+    width: 75%;
+    margin: 0 0 0px 20px;
+    height: 95px;
+    background:#1D2F3E;
     text-align: center;
+    float:left;
+    
 }
 
 .article-header {
-    background:#CC5200;
-    height: 30px;
+    margin: 0px 10px auto 0px;
+    width:100%;
+    background: #152737;
+    height: 50%;
+    text-align:center;
    
 }
 
 .second-article{
-    background:#CC5200;
-    height: 80px;
+    background:#152737;
+    margin: 0 0 0 0;
+    height: 100%;
+    width:100%;
 }
 
 .article-footer{
-    height:100%;
-}
-        
-
-nav, aside {
-    background:#A00000;
-    width:150px;
-    height:400px;
-    float: left;
+    height:150px;
+    background:#c9e1c1;
 }
 
-article {
+nav li { display:inline;}
 
-    background:#FF7519;
-    width:350px;
+nav, aside{
+    background:#152737;
+    width: 75%;
+    height:50px;
+    margin: 5px 30px 0px 20px;
     float: left;
     text-align:center;
 }
 
-#page-footer {
-    clear:left;
-    background:#D14719;
 
+article {
+    margin:20px 10px 0px 10px;
+    background:#c9e1c1;
+    width:75%;
+    float: left;
+    text-align:center;
+    color:#1D2F3E;
+}
+
+#about{
+    margin:20px 10px 0px 0px;
+    height:800px;
+    width:150px;
+    background:#1D2F3E;
+    float: left;
+}
+
+#page-footer {
+    margin: 20px 20px 0 0;
+    clear:left;
+    background:#1D2F3E;
 }
