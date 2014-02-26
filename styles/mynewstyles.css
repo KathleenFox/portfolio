@@ -11,9 +11,9 @@
 #logo
 {
     margin: 0 0 0 0;
-    background:#0f9fb4;
+    background:#1D2F3F;
     width: 150px;
-    height: 150px;
+    height: 600px;
     float: left;    
 }
 
@@ -71,7 +71,7 @@ nav, aside{
 
 
 article {
-    margin:20px 10px 0px 10px;
+    margin:20px 10px 0px 20px;
     background:#c9e1c1;
     width:75%;
     float: left;
@@ -79,14 +79,7 @@ article {
     color:#1D2F3E;
 }
 
-#about{
-    margin:20px 10px 0px 0px;
-    height:800px;
-    width:150px;
-    background:#1D2F3E;
-    float: left;
-    p{ color:#c9e1c1;}
-}
+
 
 #page-footer {
     margin: 20px 20px 0 0;
